@@ -85,4 +85,16 @@ The app uses the Google Drive API to manage note files. Follow these steps to se
    - Follow the instructions of your chosen authentication package (such as [google_sign_in](https://pub.dev/packages/google_sign_in)) to integrate these credentials.
    - **For Android:** Place the JSON file in the appropriate directory (typically in the `android/app` folder).
    - **For iOS:** Update your `Info.plist` with the corresponding configuration.
+   - 
+   - **Screenshots:**
+Here are some screenshots of AnimatedQuotes:
+
+<div align="center"> 
+ <img src="screenshots/screen2.png" alt="Home Screen" width="200px" />
+ <img src="screenshots/screen3.png" alt="Theme Screen" width="200px" />
+ <img src="screenshots/screen4.png" alt="Saved Screen" width="200px" />
+ <img src="screenshots/screen5.png" alt="Home Screen" width="200px" /></div>
+ 
+- **License:**
+This project is licensed under the MIT License. See the LICENSE file for details.
 
