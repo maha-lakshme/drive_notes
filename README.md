@@ -46,7 +46,7 @@ Drive Notes integrates with Google Drive to store your notes as text files insid
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/DriveNotes.git
+   git clone [https://github.com/maha-lakshme/drive_notes.git]
    cd drive_notes
 
 2. **Install Dependencies**
