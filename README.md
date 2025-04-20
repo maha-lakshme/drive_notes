@@ -90,11 +90,10 @@ The app uses the Google Drive API to manage note files. Follow these steps to se
 Here are some screenshots of AnimatedQuotes:
 
 <div align="center"> 
- <img src="screenshots/screen2.png" alt="Home Screen" width="200px" />
  <img src="screenshots/screen3.png" alt="Theme Screen" width="200px" />
- <img src="screenshots/screen4.png" alt="Saved Screen" width="200px" />
  <img src="screenshots/screen5.png" alt="Home Screen" width="200px" />
- <img src="screenshots/screen6.png" alt="Home Screen" width="200px" /></div>
+ <img src="screenshots/screen6.png" alt="Home Screen" width="200px" />
+ <img src="screenshots/screen7.png" alt="Saved Screen" width="200px" /></div>
  
 - **License:**
 This project is licensed under the MIT License. See the LICENSE file for details.
