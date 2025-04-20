@@ -2,7 +2,7 @@
 
 ## Overview
 
-Drive Notes integrates with Google Drive to store your notes as text files inside a dedicated folder. The app leverages Flutter’s Material 3 theming, Riverpod for state management, and Flutter's default Navigator for screen transitions. Although the app offers a theme toggle for light and dark modes, the selected mode is not persisted across app restarts.
+Drive Notes integrates with Google Drive to store your notes as text files inside a dedicated folder. The app leverages Flutter’s Material 3 theming, Riverpod for state management, and Flutter's default Navigator for screen transitions.
 
 ## Features
 
