@@ -37,12 +37,19 @@ class DriveNotesApp extends ConsumerWidget {
             foregroundColor: Colors.white,
           ),
         ),
+                // Adding fade transitions for page navigations
+        pageTransitionsTheme: PageTransitionsTheme(
+          builders: {
+            for (var platform in [TargetPlatform.android, TargetPlatform.iOS])
+              platform: FadeForwardsPageTransitionsBuilder(),
+          },
+        ),
       ),
       // Dark theme using Material 3.
       darkTheme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.deepOrange,
+          seedColor: const Color.fromARGB(255, 2, 1, 1),
           brightness: Brightness.dark,
         ),
         scaffoldBackgroundColor: Colors.black,
@@ -55,6 +62,12 @@ class DriveNotesApp extends ConsumerWidget {
             backgroundColor: Colors.amber,
             foregroundColor: Colors.black,
           ),
+        ),
+          pageTransitionsTheme: PageTransitionsTheme(
+          builders: {
+            for (var platform in [TargetPlatform.android, TargetPlatform.iOS])
+              platform: FadeForwardsPageTransitionsBuilder(),
+          },
         ),
       ),
       home: LoginScreen(),
