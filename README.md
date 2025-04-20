@@ -19,7 +19,11 @@ Drive Notes integrates with Google Drive to store your notes as text files insid
 - **Navigation:**  
   The app uses Flutter’s default Navigator.
 - **Feature-Based Folder Structure:**  
-  The project is organized by features (e.g., notes, theming, authentication) rather than by technical layers. This helps improve scalability and maintainability.
+  The project is organized by features (e.g., notes, theming, authentication) rather than by technical layers.
+  -:**Simple Animations:**  
+  Subtle animations enhance user interactions, providing a smoother and more engaging experience.
+  -:**Custom App Icon::**
+  The app's icon has been updated to a professional and polished look.
 
 ## Known Limitations
 
