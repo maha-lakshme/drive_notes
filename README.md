@@ -2,7 +2,7 @@
 
 ## Overview
 
-Drive Notes integrates with Google Drive to store your notes as text files inside a dedicated folder. The app leverages Flutter’s Material 3 theming, Riverpod for state management, and Flutter's default Navigator for screen transitions. Although the app offers a theme toggle for light and dark modes, the selected mode is not persisted across app restarts.
+Drive Notes integrates with Google Drive to store your notes as text files inside a dedicated folder. The app leverages Flutter’s Material 3 theming, Riverpod for state management, and Flutter's default Navigator for screen transitions.
 
 ## Features
 
@@ -19,7 +19,11 @@ Drive Notes integrates with Google Drive to store your notes as text files insid
 - **Navigation:**  
   The app uses Flutter’s default Navigator.
 - **Feature-Based Folder Structure:**  
-  The project is organized by features (e.g., notes, theming, authentication) rather than by technical layers. This helps improve scalability and maintainability.
+  The project is organized by features (e.g., notes, theming, authentication) rather than by technical layers.
+  -:**Simple Animations:**  
+  Subtle animations enhance user interactions, providing a smoother and more engaging experience.
+  -:**Custom App Icon::**
+  The app's icon has been updated to a professional and polished look.
 
 ## Known Limitations
 
@@ -85,4 +89,16 @@ The app uses the Google Drive API to manage note files. Follow these steps to se
    - Follow the instructions of your chosen authentication package (such as [google_sign_in](https://pub.dev/packages/google_sign_in)) to integrate these credentials.
    - **For Android:** Place the JSON file in the appropriate directory (typically in the `android/app` folder).
    - **For iOS:** Update your `Info.plist` with the corresponding configuration.
+   - 
+   - **Screenshots:**
+Here are some screenshots of AnimatedQuotes:
+
+<div align="center"> 
+ <img src="screenshots/screen1.png" alt="Theme Screen" width="200px" />
+ <img src="screenshots/screen4.png" alt="Home Screen" width="200px" />
+ <img src="screenshots/screen6.png" alt="Home Screen" width="200px" />
+ <img src="screenshots/screen7.png" alt="Saved Screen" width="200px" /></div>
+ 
+- **License:**
+This project is licensed under the MIT License. See the LICENSE file for details.
 
