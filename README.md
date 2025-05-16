@@ -1,3 +1,11 @@
+
+<div align="center"> 
+ <img src="screenshots/screen1.png" alt="Theme Screen" width="200px" />
+ <img src="screenshots/screen4.png" alt="Home Screen" width="200px" />
+ <img src="screenshots/screen6.png" alt="Home Screen" width="200px" />
+ <img src="screenshots/screen7.png" alt="Saved Screen" width="200px" /></div>
+
+
 # Drive Notes
 
 ## Overview
@@ -90,14 +98,6 @@ The app uses the Google Drive API to manage note files. Follow these steps to se
    - **For Android:** Place the JSON file in the appropriate directory (typically in the `android/app` folder).
    - **For iOS:** Update your `Info.plist` with the corresponding configuration.
    - 
-   - **Screenshots:**
-Here are some screenshots of AnimatedQuotes:
 
-<div align="center"> 
- <img src="screenshots/screen1.png" alt="Theme Screen" width="200px" />
- <img src="screenshots/screen4.png" alt="Home Screen" width="200px" />
- <img src="screenshots/screen6.png" alt="Home Screen" width="200px" />
- <img src="screenshots/screen7.png" alt="Saved Screen" width="200px" /></div>
- 
 
 
